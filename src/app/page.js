@@ -46,11 +46,11 @@ export default function FoodReviewPage() {
       </Text>
       <Pagination
         total={20}
-        mt="sm"
+        mt="md"
         position="center"
         color="orange"
       ></Pagination>
-      <Text align="center" color="dimmed" mt="md">
+      <Text align="center" color="dimmed" my="sm">
         Copyright © 2023 Phumrapee Tapwong 650610799
       </Text>
     </Container>
