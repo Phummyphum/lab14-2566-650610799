@@ -50,7 +50,7 @@ export default function FoodReviewPage() {
         position="center"
         color="orange"
       ></Pagination>
-      <Text align="center" color="dimmed" mt="xs">
+      <Text align="center" color="dimmed" mt="md">
         Copyright © 2023 Phumrapee Tapwong 650610799
       </Text>
     </Container>
