@@ -2,6 +2,9 @@
 import {
   Button,
   Container,
+  Divider,
+  Group,
+  Pagination,
   Rating,
   Text,
   Textarea,
@@ -25,7 +28,28 @@ export default function FoodReviewPage() {
       <Button mt="xs" color="orange">
         Submit Review
       </Button>
-
+      <Divider mt="sm"></Divider>
+      <Group position="center" mt="sm">
+        <Title order={4}>Elon Musk</Title>
+        <Rating></Rating>
+      </Group>
+      <Text align="center" color="dimmed">
+        Best pizza in this world. I give you X score.
+      </Text>
+      <Divider mt="sm"></Divider>
+      <Group position="center" mt="sm">
+        <Title order={4}>Mark Zuck</Title>
+        <Rating></Rating>
+      </Group>
+      <Text align="center" color="dimmed">
+        My favourite part is pepperoni
+      </Text>
+      <Pagination
+        total={20}
+        mt="sm"
+        position="center"
+        color="orange"
+      ></Pagination>
       <Text align="center" color="dimmed" my="sm">
         Copyright © 2023 Phumrapee Tapwong 650610799
       </Text>
