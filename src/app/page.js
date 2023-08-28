@@ -31,7 +31,7 @@ export default function FoodReviewPage() {
       <Divider mt="sm"></Divider>
       <Group position="center" mt="sm">
         <Title order={4}>Elon Musk</Title>
-        <Rating></Rating>
+        <Rating value={5} readOnly></Rating>
       </Group>
       <Text align="center" color="dimmed">
         Best pizza in this world. I give you X score.
@@ -39,7 +39,7 @@ export default function FoodReviewPage() {
       <Divider mt="sm"></Divider>
       <Group position="center" mt="sm">
         <Title order={4}>Mark Zuck</Title>
-        <Rating></Rating>
+        <Rating value={4} readOnly></Rating>
       </Group>
       <Text align="center" color="dimmed">
         My favourite part is pepperoni
